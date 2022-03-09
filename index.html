@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Claptrap Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="title" id="title">Play Rock-Paper-Scissors with Claptrap!</h1>
+
+        <div class="game">
+            <div class="claptrap-div">
+                <h2 class="claptrap-quote"><span id="claptrap-quote">Hello minion, let's play!</span></h2>
+                <img class="claptrap" src="./assets/claptrap.png" alt="claptrap">
+            </div>
+            <div class="choice-display" id="choose">
+                <h1 class="choose">CHOOSE YOUR WEAPON</h1>
+            </div>
+            <div class="choice-display hidden" id="result-div">
+                <div class="choice-div">
+                    <img class="img-choice" src="./assets/claptrap-scissors.png" alt="claptrap-choice">
+                    <h2 class="choice-h2">SCISSORS</h2>
+                </div>
+                <h1 class="vs">VS</h1>
+                <div class="choice-div">
+                    <img class="img-choice" id="user-choise-img" src="" alt="user-choice">
+                    <h2 class="choice-h2" id="user-choice-h2"></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="ROCK">
+                <img class="choice-option" src="./assets/rock.png" alt="rock" id="ROCK">
+                <h2 class="choice-h2" id="ROCK">ROCK</h2>
+            </div>
+            <div class="choice" id="PAPER">
+                <img class="choice-option" src="./assets/paper.png" alt="paper" id="PAPER">
+                <h2 class="choice-h2" id="PAPER">PAPER</h2>
+            </div>
+            <div class="choice" id="SCISSORS">
+                <img class="choice-option" src="./assets/scissors.png" alt="scissors" id="SCISSORS">
+                <h2 class="choice-h2" id="SCISSORS">SCISSORS</h2>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
